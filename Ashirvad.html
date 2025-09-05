@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashirvad Medical Hall</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      height: 100vh;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .top-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #90e0ef;
+    }
+    .person {
+      width: 45%;
+      text-align: center;
+    }
+    .person img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .info {
+      background-color: #caf0f8;
+      padding: 20px;
+      text-align: center;
+    }
+    .info p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+    .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+      margin-top: 20px;
+    }
+    .slide {
+      display: none;
+      padding: 40px;
+      text-align: center;
+      background-color: #ade8f4;
+      border-radius: 10px;
+    }
+    .slide h2 {
+      margin-bottom: 10px;
+    }
+    .fade {
+      animation: fade 1.5s ease-in-out;
+    }
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    .scanner {
+      background-color: #dff6ff;
+      padding: 30px;
+      text-align: center;
+    }
+    .scanner h2 {
+      margin-bottom: 10px;
+    }
+    .scanner img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .order-button {
+      display: inline-block;
+      background-color: #0077b6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ashirvad Medical Hall</h1>
+    <p>Branch: Biddapur Colony | Timing: 8:30 AM – 10:30 PM</p>
+  </header>
+
+  <div class="top-section">
+    <div class="person">
+      <img src="https://github.com/AnilAk13/AnilAk13.github.io/blob/main/Shivanand.jpg?raw=true" alt="Founder Photo">
+      <h3>Founder</h3>
+      <p>Shivanand Police Patil</p>
+    </div>
+    <div class="person">
+      <img src="https://github.com/AnilAk13/AnilAk13.github.io/blob/main/Anils.jpg?raw=true" alt="Manager Photo">
+      <h3>Manager</h3>
+      <p>Anil Police Patil</p>
+    </div>
+  </div>
+
+  <div class="info">
+    <h2>Contact Numbers</h2>
+<p><a href="tel:9148485555">📞 9148485555</a></p>
+<p><a href="tel:9019809853">📞 9019809853</a></p>
+<p><a href="tel:8050034346">📞 8050034346</a></p>
+
+  </div>
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <h2>Prescription Medicines</h2>
+      <p>Authentic and affordable medicines from trusted brands.</p>
+    </div>
+    <div class="slide fade">
+      <h2>Health & Wellness</h2>
+      <p>Supplements, vitamins, and personal care products available.</p>
+    </div>
+    <div class="slide fade">
+      <h2>Home Delivery</h2>
+      <p>Fast delivery across Kalaburagi. Call to order!</p>
+    </div>
+  </div>
+
+<div class="scanner" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; align-items: center;">
+  <!-- 💳 Left Column: Payment QR Code -->
+  <div style="flex: 1; min-width: 280px; text-align: center;">
+    <h2 style="color: #0077b6;">💳 Pay via QR Code</h2>
+    <p>Scan this code to make secure payments for your orders.</p>
+    <img src="https://github.com/AnilAk13/AnilAk13.github.io/blob/main/qrcode.jpg?raw=true" alt="Payment QR Code" style="width: 200px; height: auto; margin-top: 10px;">
+  </div>
+
+  <!-- 🛒 Right Column: Order Links -->
+  <div style="flex: 1; min-width: 280px; text-align: center;">
+    <h2 style="color: #0077b6;">🛒 Order Medicines</h2>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfYZwAPOHQ5Hx5sxK_zbeTEWgG4OtSnZRtZgfhAsO-INymHQ/viewform?usp=sharing" 
+       target="_blank" 
+       class="order-button" 
+       style="display: inline-block; margin: 10px 0; padding: 12px 24px; background-color: #0077b6; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">
+       📝 Fill Order Form
+    </a>
+    <br>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfYZwAPOHQ5Hx5sxK_zbeTEWgG4OtSnZRtZgfhAsO-INymHQ/viewform?usp=header" 
+       target="_blank" 
+       style="font-size: 16px; color: #0077b6; text-decoration: underline; font-weight: bold;">
+       🔗 Direct Link to Order Medicines
+    </a>
+  </div>
+</div>
+</div>
+
+
+  <footer>
+    <p>&copy; 2025 Ashirvad Medical Hall. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000);
+    }
+  </script>
+
+</body>
+</html>
